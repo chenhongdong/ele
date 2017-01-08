@@ -17,7 +17,14 @@
         </div>
       </div>
     </div>
+    <div class="ball-container">
+      <div class="ball">
+        <div class="inner inner-hook"></div>
+      </div>
+    </div>
+
   </div>
+
 </template>
 
 <script type="text/ecmascript-6">
