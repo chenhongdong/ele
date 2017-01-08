@@ -36,7 +36,7 @@
         </li>
       </ul>
     </div>
-    <shopcart :select-foods="selectFoods" :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></shopcart>
+    <shopcart v-ref:shopcart :select-foods="selectFoods" :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></shopcart>
   </div>
 </template>
 
@@ -105,7 +105,6 @@
         let foodList = this.$els.foodsWrapper.getElementsByClassName('food-list-hook');
         let el = foodList[index];
         this.foodsScroll.scrollToElement(el, 300);
-        console.log(index);
       },
       _initScroll() {
         this.menuScroll = new BScroll(this.$els.menuWrapper, {
@@ -131,11 +130,19 @@
           height += item.clientHeight;
           this.listHeight.push(height);
         }
+      },
+      _drop(target) {
+        this.$refs.shopcart.drop(target);
       }
     },
     components: {
       shopcart,
       cartcontrol
+    },
+    events: {
+      'cart.add'(target) {
+        this._drop(target);
+      }
     }
   };
 </script>
