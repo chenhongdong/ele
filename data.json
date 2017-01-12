@@ -73,7 +73,7 @@
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
-              "text": "",
+              "text": "还可以吧，就是量太小了",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -99,7 +99,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "",
+              "text": "味道不错，包装很好",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -110,10 +110,10 @@
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
-              "username": "3******b",
+              "username": "1******a",
               "rateTime": 1469261964000,
               "rateType": 1,
-              "text": "",
+              "text": "送餐也太慢了，态度不好",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             }
           ],
@@ -128,7 +128,7 @@
           "description": "",
           "sellCount": 124,
           "rating": 85,
-          "info": "",
+          "info": "一种由面粉和小葱为主要食材的中国煎饼。面粉加少许精盐用温水和好揉匀，稍醒片刻，搓成长条切成剂。",
           "ratings": [
             {
               "username": "3******c",
@@ -1191,7 +1191,9 @@
       "rateType": 1,
       "text": "送货速度蜗牛一样",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
-      "recommend": []
+      "recommend": [
+        "香菇饭"
+      ]
     },
     {
       "username": "d******c",
